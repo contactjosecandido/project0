@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+  </head>
+  <style>
+    form {
+      float: left;
+      position: relative;
+    }
+    p {
+      float: left;
+    }
+  </style>
+  <body>
+    <a href="https://wwww.google.com/" style="float: right;"
+      >Back to Google Search</a
+    >
+    <br />
+
+    <a href="https://images.google.com/?gws_rd=ssl" style="float: right;"
+      >Image Search
+    </a>
+    <br />
+    <br />
+
+    <h3>Advanced Search</h3>
+    <hr />
+    <center>
+      <form
+        action="https://www.google.com/search?as_q=&as_epq=&as_oq=&as_eq=&"
+        method="GET"
+      >
+        <p>
+          all these words:
+          <input
+            type="text"
+            value=""
+            name="as_q"
+            style="border: solid 1px grey; margin-left: 65px;"
+          />
+        </p>
+        <br />
+        <p>
+          this exact word or phrase:
+          <input
+            type="text"
+            value=""
+            name="as_epq"
+            style="border: solid 1px grey; margin-left: 15px;"
+          />
+        </p>
+        <br />
+
+        <p>
+          any of these words:
+          <input
+            type="text"
+            value=""
+            name="as_oq"
+            style="border: solid 1px grey; margin-left: 45px;"
+          />
+        </p>
+        <br />
+
+        <p>
+          none of these words:
+          <input
+            type="text"
+            value=""
+            name="as_eq"
+            style="border: solid 1px grey; margin-left: 40px;"
+          />
+        </p>
+        <br />
+
+        <input
+          type="submit"
+          value="Advanced Search"
+          style="
+            color: white;
+            background-color: dodgerblue;
+            padding: 10px;
+            margin-left: 5px;
+          "
+        />
+      </form>
+    </center>
+  </body>
+</html>
